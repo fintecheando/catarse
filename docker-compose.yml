@@ -3,8 +3,7 @@ services:
   db:
     image: postgres:9
     environment:
-      POSTGRES_DB: catarse_development
-      POSTGRES_PASSWORD: F1nagamData01    
+      POSTGRES_PASSWORD: superpassword    
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
   web:
