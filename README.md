@@ -16,8 +16,11 @@ The official repo is https://github.com/catarse/catarse
 ## Getting started
 
 ### Docker
+* Run Docker Compose
+```bash
+$ docker-compose up
+```
 
-docker-compose up
 
 ### Dependencies
 
