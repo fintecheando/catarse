@@ -3,7 +3,7 @@ services:
   db:
     image: postgres:9
     environment:
-      POSTGRES_PASSWORD: superpassword    
+      POSTGRES_PASSWORD: password    
     volumes:
       - ./tmp/db:/var/lib/postgresql/data
   web:
